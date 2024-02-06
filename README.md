@@ -1,6 +1,6 @@
 # OA_Project
 
-`Rodas, Mike, Bernas and John do their best to create a good OA project`
+See the project statement to understand the optimization approaches
 
 # How to run the Script
 
