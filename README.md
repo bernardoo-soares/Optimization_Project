@@ -1,15 +1,34 @@
-# OA_Project
+# Optimization Algorithms Coursework
 
-See the project statement to understand the optimization approaches
+Academic optimization project from Instituto Superior Tecnico, 2023/2024.
 
-# How to run the Script
+The project solves a sequence of optimization tasks in MATLAB, including cost-function visualization,
+trajectory selection, and iterative parameter experiments.
 
-Running the script in Matlab will execute all the tasks in their corresponding sequence. All the plots from tasks 1 to 16 will be displayed and saved with the name "Taskn.png" where n corresponds to the number os the task.
+## Repository Contents
 
-At task 9 the user will be presented with a blank graph for entering trajectories. Using the left mouse button, the reference points for the trajectory can be selected. Once all the points have been entered, click on the space button to finish.
+- `TasksScripts.m`: MATLAB script with the project task solutions.
+- `proj_oa2324p1.pdf`: original project statement.
 
-Tasks 10,11 and 12 will iterate over various values of mu and may take a while. Check the terminal to view the status of the iteration.
+## How To Run
 
-Task 13: Same as task 9 but with a maximum of 2 points.
+Open `TasksScripts.m` in MATLAB and run the script from the beginning.
 
-Results of tasks 14,15 and 16 will be saved or/and displayed on the console.
+The script executes tasks sequentially and writes plots using names like:
+
+```text
+Task1.png
+Task2.png
+...
+```
+
+Some tasks require manual interaction:
+
+- Task 9 asks the user to select reference trajectory points on a graph.
+- Task 13 uses a similar interaction with a maximum of two points.
+- Tasks 10, 11, and 12 iterate over multiple `mu` values and may take longer to finish.
+
+## Notes
+
+This repository is kept as a compact coursework archive. It is not a packaged MATLAB toolbox, and the
+main value is in the implemented optimization exercises rather than reusable project infrastructure.
